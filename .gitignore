@@ -1,0 +1,47 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code settings
+.vscode/
+
+# Streamlit
+.streamlit/config.toml
+
+# OS / System
+.DS_Store
+Thumbs.db
+
+# Temporary or test data
+*.gif
+*.png
+*.jpg
+*.csv
+*.tmp
+*.json
+*.sqlite3
+*.db
+
+# IDE project files
+.idea/
+*.iml
+
+# Pytest cache
+.cache/
+*.pytest_cache
+
+# Uvicorn reload artifacts
+*.pid

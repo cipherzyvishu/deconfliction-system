@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+scipy
+shapely
+numpy
+matplotlib
+plotly
+python-multipart
+pydantic
+rtree
