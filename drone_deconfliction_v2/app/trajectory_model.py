@@ -88,6 +88,8 @@ def detect_conflicts(ovbs_a: List[OVB], ovbs_b: List[OVB]) -> List[Conflict]:
                         location=((a.center[0] + b.center[0])/2,
                                   (a.center[1] + b.center[1])/2,
                                   (a.center[2] + b.center[2])/2),
+                        time_a=t_a,
+                        time_b=t_b,
                         time=(t_a + t_b) / 2,               # ✅ midpoint time
                         actual_gap=dt_actual,
                         required_gap=dt_required,
